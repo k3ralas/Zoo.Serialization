@@ -1,0 +1,6 @@
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\bin\Debug\ZooRunner2.dll
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\bin\Debug\ZooRunner2.pdb
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner.csprojResolveAssemblyReference.cache
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner.csproj.CoreCompileInputs.cache
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.dll
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.pdb
