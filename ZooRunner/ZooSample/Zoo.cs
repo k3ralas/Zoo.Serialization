@@ -107,7 +107,18 @@ namespace ZooSample
 
         public Animal Read( JObject o )
         {
-            throw new NotImplementedException();
+            
+
+            List<string> keys = o.Properties().Select( p => p.Name ).ToList();
+            List<JToken> values = new List<JToken>();
+
+            foreach( string k in keys )
+            {
+                var value = o.GetValue( k );
+                values.Add( value );
+            }
+            
+            return null;
         }
     }
 }

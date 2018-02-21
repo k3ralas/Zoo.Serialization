@@ -16,3 +16,21 @@ D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSa
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csproj.CoreCompileInputs.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.dll
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\ZooSample.Tests.dll.config
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\ZooSample.Tests.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\ZooSample.Tests.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\FluentAssertions.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\nunit.framework.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\ZooSample.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\ZooSample.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\FluentAssertions.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\FluentAssertions.xml
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\nunit.framework.xml
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\System.ValueTuple.xml
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csprojResolveAssemblyReference.cache
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csproj.CoreCompileInputs.cache
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.pdb

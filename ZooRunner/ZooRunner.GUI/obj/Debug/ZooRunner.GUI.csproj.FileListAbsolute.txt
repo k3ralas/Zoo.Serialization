@@ -17,3 +17,22 @@ D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunn
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csproj.CoreCompileInputs.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.exe
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner.GUI.exe.config
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner.GUI.exe
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner.GUI.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner.2D.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner2.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner.2D.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner2.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csprojResolveAssemblyReference.cache
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.AnimalsRepresentation.resources
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.ControlPanel.resources
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.CreateAnimals.resources
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.Informations.resources
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.MainForm.resources
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.Properties.Resources.resources
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.Scale.resources
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csproj.GenerateResource.Cache
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csproj.CoreCompileInputs.cache
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.exe
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.pdb
