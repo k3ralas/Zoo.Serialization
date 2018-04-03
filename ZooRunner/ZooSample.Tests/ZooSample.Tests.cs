@@ -42,7 +42,7 @@ namespace ZooSample.Tests
 
             var deserialzation = z.Read( o );
 
-
+            deserialzation.Should().BeOfType(typeof(Bird));
            
    
         
