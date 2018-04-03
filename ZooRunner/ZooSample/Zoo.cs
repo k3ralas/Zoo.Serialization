@@ -1,8 +1,11 @@
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -44,7 +47,7 @@ namespace ZooSample
         public Cat CreateCat( string name )
         {
             Cat cat = new Cat( this, name );
-            _animals[ name ] = cat;
+            _animals[name] = cat;
             return cat;
         }
 
@@ -59,7 +62,7 @@ namespace ZooSample
         public Bird CreateBird( string name )
         {
             Bird bird = new Bird( this, name );
-            _animals[ name ] = bird;
+            _animals[name] = bird;
             return bird;
         }
 
@@ -92,7 +95,7 @@ namespace ZooSample
             var sinX = Math.Sin( x ) + 1.0;
             var sinY = Math.Sin( y ) + 1.0;
             var sinXY = Math.Sin( x * y ) + 1.0;
-            return Color.FromArgb( (int)(sinX*255) % 256, (int)(sinY*200) % 256, (int)(sinXY * 250) % 256 );
+            return Color.FromArgb( (int)(sinX * 255) % 256, (int)(sinY * 200) % 256, (int)(sinXY * 250) % 256 );
         }
 
         public Animal Read( BinaryReader r )
@@ -105,9 +108,23 @@ namespace ZooSample
             throw new NotImplementedException();
         }
 
+
         public Animal Read( JObject o )
         {
-            throw new NotImplementedException();
+            var type = (string)o["type"];
+            var methodName = $"Create{type}";
+            var name = (string)o["Name"];
+
+            var method = typeof( Zoo ).GetMethod( methodName );
+
+            Animal a = (Animal)method.Invoke( this, new object[] { name } );
+            Type t = Type.GetType( typeof( Animal ).Namespace + "." + type );
+
+            t.GetMethod( nameof( Bird.MoveTo ) ).Invoke( a, new object[] { new Point( (double)o["X"], (double)o["Y"] ), 1 } );
+            return a;
         }
     }
-}
+        
+    }
+
+

@@ -4,3 +4,14 @@ D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner.c
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner.csproj.CoreCompileInputs.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.dll
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner\bin\Debug\ZooRunner2.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner\bin\Debug\ZooRunner2.pdb
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner.csprojResolveAssemblyReference.cache
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner.csproj.CoreCompileInputs.cache
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.dll
+C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.pdb
+C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\bin\Debug\ZooRunner2.dll
+C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\bin\Debug\ZooRunner2.pdb
+C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner.csprojResolveAssemblyReference.cache
+C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.dll
+C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner\obj\Debug\ZooRunner2.pdb

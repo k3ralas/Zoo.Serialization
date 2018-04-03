@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace ZooSample
 {
@@ -11,7 +12,7 @@ namespace ZooSample
         Zoo _ctx;
         string _name;
         Point _pos;
-
+        public abstract string Type { get; }
         protected Animal( Zoo context, string name )
         {
             _ctx = context;
