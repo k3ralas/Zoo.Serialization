@@ -12,7 +12,6 @@ D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\Fluen
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\nunit.framework.xml
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\System.ValueTuple.xml
-D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csprojResolveAssemblyReference.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csproj.CoreCompileInputs.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.dll
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.pdb
@@ -51,3 +50,5 @@ C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tes
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\nunit.framework.xml
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\System.ValueTuple.xml
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csprojAssemblyReference.cache
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csproj.CopyComplete

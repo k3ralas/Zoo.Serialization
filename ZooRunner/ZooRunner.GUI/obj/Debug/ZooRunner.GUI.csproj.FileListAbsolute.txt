@@ -5,7 +5,6 @@ D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunn
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner2.dll
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner.2D.pdb
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner2.pdb
-D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csprojResolveAssemblyReference.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.AnimalsRepresentation.resources
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.ControlPanel.resources
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.CreateAnimals.resources
@@ -54,3 +53,5 @@ C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csproj.GenerateResource.Cache
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.exe
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.pdb
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csprojAssemblyReference.cache
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csproj.CopyComplete

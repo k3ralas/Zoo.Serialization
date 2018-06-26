@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -8,12 +8,15 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace ZooSample
 {
+    [Serializable]
     public class Zoo
     {
         readonly Dictionary<string, Animal> _animals;
@@ -98,9 +101,30 @@ namespace ZooSample
             return Color.FromArgb( (int)(sinX * 255) % 256, (int)(sinY * 200) % 256, (int)(sinXY * 250) % 256 );
         }
 
-        public Animal Read( BinaryReader r )
+        public Animal Read( MemoryStream r )
         {
-            throw new NotImplementedException();
+            //var type = (string)r["type"];
+            //var methodName = $"Create{type}";
+            //var name = (string)r["Name"];
+
+            //var method = typeof( Zoo ).GetMethod( methodName );
+
+            //Animal a = (Animal)method.Invoke( this, new object[] { name } );
+            //Type t = Type.GetType( typeof( Animal ).Namespace + "." + type );
+
+            //t.GetMethod( nameof( Bird.MoveTo ) ).Invoke( a, new object[] { new Point( (double)o["X"], (double)o["Y"] ), 1 } );
+            StreamReader reader = new StreamReader( r, Encoding.UTF8 );
+            // Read the content.
+            r.Seek( 0, SeekOrigin.Begin );
+            string responseFromServer = reader.ReadToEnd();
+            String[] str = responseFromServer.Cast<string>().ToArray();
+            Console.WriteLine();
+    // TODO: do something with the result
+
+
+
+            Zoo z = new Zoo();
+            return z.CreateCat( "Minnet" );
         }
 
         public Animal Read( XElement e )

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ZooSample
 {
+    [Serializable]
     public abstract class Animal
     {
         Zoo _ctx;

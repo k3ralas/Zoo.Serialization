@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZooSample
 {
+    [Serializable]
     public class Cat : Animal
     {
         Point _direction;

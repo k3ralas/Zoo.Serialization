@@ -2,7 +2,6 @@ D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\bin\Debug\ZooSample.d
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\bin\Debug\ZooSample.pdb
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\bin\Debug\Newtonsoft.Json.dll
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\bin\Debug\Newtonsoft.Json.xml
-D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.csprojResolveAssemblyReference.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.csproj.CoreCompileInputs.cache
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.dll
 D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.pdb
@@ -21,3 +20,5 @@ C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\bin
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.csprojResolveAssemblyReference.cache
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.dll
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.pdb
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.csprojAssemblyReference.cache
+D:\intech\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample\obj\Debug\ZooSample.csproj.CopyComplete
