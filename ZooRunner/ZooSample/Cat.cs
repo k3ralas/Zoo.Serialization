@@ -16,7 +16,10 @@ namespace ZooSample
         {
             _isRandomWalking = true;
         }
+        public Cat()
+        {
 
+        }
         public void MoveTo(Point destination, double percentSpeed)
         {
             double x = X + (destination.X / percentSpeed);
@@ -62,4 +65,5 @@ namespace ZooSample
             return Context.Randomizer.NextDouble() * (maximum - minimum) + minimum;
         }
     }
+
 }

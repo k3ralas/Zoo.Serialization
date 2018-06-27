@@ -8,6 +8,11 @@ using FluentAssertions;
 using ZooSample;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using System.Xml.Linq;
+using System.IO;
+using System.Xml.Serialization;
+using System.Xml;
+using System.Reflection;
 
 namespace ZooSample.Tests
 {
@@ -47,6 +52,38 @@ namespace ZooSample.Tests
    
         
       
+        }
+
+        [Test]
+
+        public void Serialize_zoo_XML()
+        {
+            Zoo z = new Zoo();          
+            z.CreateCat("Minnet");
+
+            z.Find<Cat>("Minnet").Should().NotBeNull();
+            XElement e;
+            Cat myCat = z.Find<Cat>("Minnet");
+
+            using (var memoryStream = new MemoryStream())
+            {
+                using (TextWriter streamWriter = new StreamWriter(memoryStream))
+                {
+                    var xmlSerializer = new XmlSerializer(typeof(Cat));
+                    xmlSerializer.Serialize(streamWriter, myCat);
+                    e = XElement.Parse(Encoding.ASCII.GetString(memoryStream.ToArray()));
+                }
+            }
+            XAttribute attribute = new XAttribute("type", typeof(Cat).Name);
+            e.Add(attribute);
+
+            var deserialzation = z.Read(e);
+
+            deserialzation.Should().BeOfType(typeof(Cat));
+
+
+
+
         }
     }
 }

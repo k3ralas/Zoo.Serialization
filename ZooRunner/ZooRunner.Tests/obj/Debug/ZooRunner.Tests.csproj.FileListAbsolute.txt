@@ -35,7 +35,6 @@ C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.Tests\bin\Deb
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.Tests\bin\Debug\System.ValueTuple.xml
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.Tests\obj\Debug\ZooRunner.Tests.csprojResolveAssemblyReference.cache
-C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.Tests\obj\Debug\ZooRunner.Tests.csproj.CoreCompileInputs.cache
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.Tests\obj\Debug\ZooRunner.Tests.dll
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.Tests\obj\Debug\ZooRunner.Tests.pdb
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.Tests\bin\Debug\ZooRunner.Tests.dll.config

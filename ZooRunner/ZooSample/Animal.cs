@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Xml.Linq;
 
 namespace ZooSample
 {
@@ -18,14 +18,46 @@ namespace ZooSample
             _ctx = context;
             _name = name;
         }
+        public Animal()
+        {
 
-        public string Name => _name;
+        }
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
 
         public Point Position => _pos;
 
-        public double X => _pos.X;
+        public double X
+        {
+            get
+            {
+                return _pos.X;
+            }
+            set
+            {
+                _pos.X = value;
+            }
+        }
 
-        public double Y => _pos.Y;
+        public double Y {
+            get
+            {
+                return _pos.Y;
+            }
+            set
+            {
+                _pos.Y = value;
+            }
+        }
 
         /// <summary>
         /// Only concrete animals can set their position. 
@@ -57,5 +89,10 @@ namespace ZooSample
         internal abstract void Update();
 
         public bool IsAlive => _ctx != null;
+
+        public static XElement ToXElement<T>()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

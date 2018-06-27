@@ -105,7 +105,18 @@ namespace ZooSample
 
         public Animal Read( XElement e )
         {
-            throw new NotImplementedException();
+            
+            var type = (string)e.Attribute("type");
+            var methodName = $"Create{type}";
+            var name = e.Element("Name").Value;
+
+            var method = typeof(Zoo).GetMethod(methodName);
+
+            Animal a = (Animal)method.Invoke(this, new object[] { name });
+            Type t = Type.GetType(typeof(Animal).Namespace + "." + type);
+
+            t.GetMethod(nameof(Cat.MoveTo)).Invoke(a, new object[] { new Point((double)e.Element("X"), (double)e.Element("Y")), 1 });
+            return a;
         }
 
 

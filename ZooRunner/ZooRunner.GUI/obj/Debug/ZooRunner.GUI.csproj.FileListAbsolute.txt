@@ -33,7 +33,6 @@ C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.Properties.Resources.resources
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.Scale.resources
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csproj.GenerateResource.Cache
-C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.csproj.CoreCompileInputs.cache
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.exe
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooRunner.GUI\obj\Debug\ZooRunner.GUI.pdb
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooRunner.GUI\bin\Debug\ZooRunner.GUI.exe.config

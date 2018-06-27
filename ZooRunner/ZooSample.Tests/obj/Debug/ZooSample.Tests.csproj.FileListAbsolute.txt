@@ -31,7 +31,6 @@ C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Deb
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\nunit.framework.xml
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\bin\Debug\System.ValueTuple.xml
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csprojResolveAssemblyReference.cache
-C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csproj.CoreCompileInputs.cache
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.dll
 C:\Users\fcuchot\Desktop\Zoo\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.pdb
 C:\Users\Flo\Desktop\INTECH\Semestre 9\Zoo.Serialization\ZooRunner\ZooSample.Tests\obj\Debug\ZooSample.Tests.csprojResolveAssemblyReference.cache
