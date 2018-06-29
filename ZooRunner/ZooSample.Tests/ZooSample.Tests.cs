@@ -18,41 +18,38 @@ namespace ZooSample.Tests
     [TestFixture]
     public class SampleTests
     {
-        [Test]
-        public void Serialize_zoo()
-        {
-            Zoo z = new Zoo();
-            z.CreateBird( "Titi" );
-            z.CreateCat( "Minnet" );
-
-            z.Find<Cat>( "Minnet" ).Should().NotBeNull();
-            z.Find<Bird>( "Titi" ).Should().NotBeNull();
-
-        }
 
         [Test]
         public void Serialize_zoo_Binary()
         {
             Zoo z = new Zoo();
             z.CreateBird( "Titi" );
-            z.CreateCat( "Minnet" );
 
-            z.Find<Cat>( "Minnet" ).Should().NotBeNull();
             var Bird = z.Find<Bird>( "Titi" );
+
+            var position = new Point( 0.5, 0.6 );
+            Bird.MoveTo( position, 1 );
+
             Bird.Should().NotBeNull();
+            Bird.X.Should().Be( 0.5 );
 
-            IFormatter formatter = new BinaryFormatter();
-            var stream = new MemoryStream();
-           
-            formatter.Serialize( stream, Bird );
-            byte[] newBytes = System.Text.Encoding.UTF8.GetBytes( "Bird" );
-            stream.Write( newBytes, 0, newBytes.Length );
+            using( var stream = new MemoryStream() )
+            {
+                using( var formatter = new BinaryWriter( stream ) )
+                {
+                    formatter.Write( Bird.Name );
+                    formatter.Write( Bird.X );
+                    formatter.Write( Bird.Y );
+                    formatter.Write( typeof( Bird ).Name );
 
+                    var deserializedAnimal = z.Read( stream );
 
-            var deserialzation = z.Read( stream );
-
-            deserialzation.Should().BeOfType(typeof(Bird));
-            deserialzation.Name.Should().Be( "Titi" );
+                    deserializedAnimal.Should().BeOfType( typeof( Bird ) );
+                    deserializedAnimal.Name.Should().Be( "Titi" );
+                    deserializedAnimal.X.Should().Be( 0.5 );
+                    deserializedAnimal.Y.Should().Be( 0.6);
+                }
+            }
         }
 
         [Test]
@@ -63,7 +60,8 @@ namespace ZooSample.Tests
             z.CreateCat( "Minnet" );
 
             z.Find<Cat>( "Minnet" ).Should().NotBeNull();
-           var Bird = z.Find<Bird>( "Titi" );
+            var Bird = z.Find<Bird>( "Titi" );
+
             Bird.Should().NotBeNull();
 
             var position = new Point( 0.5, 0.6 );
