@@ -98,9 +98,19 @@ namespace ZooSample
             return Color.FromArgb( (int)(sinX * 255) % 256, (int)(sinY * 200) % 256, (int)(sinXY * 250) % 256 );
         }
 
-        public Animal Read( BinaryReader r )
+        public Animal Read( MemoryStream r )
         {
-            throw new NotImplementedException();
+            using( BinaryReader reader = new BinaryReader( r ) )
+            {
+                reader.BaseStream.Seek( 0, SeekOrigin.Begin );
+
+                string name = reader.ReadString();
+                double x = reader.ReadDouble();
+                double y = reader.ReadDouble();
+                string type = reader.ReadString();
+                Animal a = ConstructAnimal( name, x, y, type );
+                return a;
+            }
         }
 
         public Animal Read( XElement e )
@@ -110,12 +120,11 @@ namespace ZooSample
             var methodName = $"Create{type}";
             var name = e.Element("Name").Value;
 
-            var method = typeof(Zoo).GetMethod(methodName);
+            var x = (double)e.Element( "X" );
+            var y = (double)e.Element( "Y" );
 
-            Animal a = (Animal)method.Invoke(this, new object[] { name });
-            Type t = Type.GetType(typeof(Animal).Namespace + "." + type);
+            Animal a = ConstructAnimal( name, x, y, type );
 
-            t.GetMethod(nameof(Cat.MoveTo)).Invoke(a, new object[] { new Point((double)e.Element("X"), (double)e.Element("Y")), 1 });
             return a;
         }
 
@@ -125,15 +134,25 @@ namespace ZooSample
             var type = (string)o["type"];
             var methodName = $"Create{type}";
             var name = (string)o["Name"];
+            var x = (double)o["X"];
+            var y = (double)o["Y"];
 
+            Animal a = ConstructAnimal( name, x, y, type );
+
+            return a;
+        }
+        internal Animal ConstructAnimal( string name, double posX, double posY, string type )
+        {
+            string methodName = $"Create{type}";
             var method = typeof( Zoo ).GetMethod( methodName );
 
             Animal a = (Animal)method.Invoke( this, new object[] { name } );
             Type t = Type.GetType( typeof( Animal ).Namespace + "." + type );
 
-            t.GetMethod( nameof( Bird.MoveTo ) ).Invoke( a, new object[] { new Point( (double)o["X"], (double)o["Y"] ), 1 } );
+            t.GetMethod("MoveTo").Invoke( a, new object[] { new Point( posX, posY ), 1 } );
             return a;
         }
+
     }
         
     }
